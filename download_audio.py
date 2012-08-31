@@ -32,15 +32,15 @@ br.set_debug_responses(True)
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
 # Proxy
-br.set_proxies({"http":"neoway:t7710176392o@216.108.225.190:60099"})
+br.set_proxies({"http":"user:password@123.456.789.101:60099"})
 
-simples_url = "http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/ConsultaOptantes.app/ConsultarOpcao.aspx"
+simples_url = ""
 
-som_url = "http://www8.receita.fazenda.gov.br/scripts/srf/intercepta/captcha.aspx?opt=sound"
+som_url = ""
 
-image_url = "http://www8.receita.fazenda.gov.br/scripts/srf/intercepta/captcha.aspx?opt=image"
+image_url = ""
 
-mp3_filename = "/home/vitor/Documents/Projetos/Captcha/Sound/Simples/som"
+mp3_filename = ""
 
 filetype = ".mp3"
 
